@@ -1,0 +1,17 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Modak', cursive;
+}
+
+.carousel {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
+}

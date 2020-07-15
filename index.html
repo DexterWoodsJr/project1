@@ -4,46 +4,128 @@
   <head>
     <meta charset="utf-8" />
 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
     <title>History of Juneteenth</title>
     <meta name="description" content="Juneteenth History" />
-    <meta name="author" content="Deter Woods" />
+    <meta name="author" content="Dexter Woods" />
     <meta name="keywords" content="Black Lives Matter, Slavery, Civil Rights" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <script src="https://use.fontawesome.com/e7e47e63bc.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
+
   </head>
 
   <body>
     <header class="jumbotron text-center">
-      <h4 class="card-title h4 pb-2"><strong>History of Juneteenth</strong></h4>
+      <h1 class="card-title pb-2">History of Juneteenth</h1>
       <div class="view overlay my-4">
-        <img
-          src="https://www.lafilm.edu/wp-content/uploads/2020/06/juneteenth.png"
-          class="img-fluid"
+        <img src="img/juneteenth-header.jpg" class="img-fluid"
           alt=""
         />
-        <a href="#">
-          <div class="mask rgba-white-slight"></div>
-        </a>
       </div>
-      <h5 class="indigo-text h5 mb-4">LOREM IPSUM</h5>
-      <p class="card-text">
-        Pat Mahomes is hella rich. Super rich!
-      </p>
     </header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">JUNETEENTH</a>
+    
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+    
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+            </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+            </li>
+        </ul>
+        <!-- Links -->
+    </nav>
+    <!--/.Navbar-->
+
+    <div class="container">
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="view">
+                <img class="d-block w-100" src="img/juneteenth3.jpg"
+                    alt="First slide">
+                <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                <h4 class="h4-responsive">An Black band at a Juneteenth celebration in Austin in 1900.</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                <img class="d-block w-100" src="img/juneteenth2.jpg"
+                    alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+                </div>
+                <div class="carousel-caption">
+                <h4 class="h4-responsive">Man with decorated car at San Francisco Juneteenth 2019</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                <img class="d-block w-100" src="img/juneteenth1.jpg"
+                    alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                <h4 class="h4-responsive">Women holding banner in Harlem at Juneteenth in 2019</h4>
+                </div>
+            </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>    
 
     <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <h5>Links</h5>
+            <h3>Links</h3>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="/history.html">History</a></li>
@@ -52,7 +134,7 @@
             </ul>
           </div>
           <div class="col">
-            <h5>Social</h5>
+            <h3>Social</h3>
             <i class="fa fa-instagram" aria-hidden="true"></i>
             <i class="fa fa-twitter" aria-hidden="true"></i>
             <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -62,7 +144,9 @@
       </div>
     </footer>
 
-
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 
   </body>
